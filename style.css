@@ -63,7 +63,7 @@ h1 {
 @font-face {
 	font-family: "DejaVu";
 	font-weight: normal;
-	src: url("font/dejavu.ttf");
+	src: url("font/dejavu-condensed.ttf");
 }
 
 @font-face {
