@@ -71,12 +71,19 @@ textarea {
 	line-height: 1.5;
 }
 
+.site-header {
+	display: flex;
+	width: 100%;
+	height: 80vh
+}
+
 .site-branding {
 	margin: auto;
 }
 
 .site-title {
 	font-family: "Milkshake", serif;
+	font-weight: normal;
 	color: #ffffff;
 	font-size: 7em;
 	text-align: center;
@@ -92,6 +99,7 @@ textarea {
 	font-family: "Rosarivo", serif;
 	color: #ffffff;
 	text-align: center;
+	margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
