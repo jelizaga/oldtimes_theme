@@ -21,7 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'old-times' ); ?></a>
 
@@ -39,6 +39,8 @@
 
 	<!-- HEADER -------------------------------------------------------------->
 	<header id="masthead" class="site-header">
+
+		<video id="site-header-cinemagraph" src="vid/origami-2.mp4" playsinline="true" loop="true" autoplay="true" muted="true"></video>
 
 		<div class="site-branding">
 			<?php
