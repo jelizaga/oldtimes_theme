@@ -74,6 +74,8 @@ textarea {
 .site-title {
 	font-family: "Milkshake", serif;
 	color: #ffffff;
+	font-size: 7em;
+	text-align: center;
 }
 
 .site-title a {
@@ -92,6 +94,7 @@ p {
 
 a {
 	text-decoration: none;
+	outline: none;
 }
 
 dfn, cite, em, i {
@@ -137,6 +140,7 @@ mark, ins {
 big {
 	font-size: 125%;
 }
+
 /*///////////////////////////////////////////////////////////////////////////*/
 
 /* Grouping content
@@ -507,18 +511,6 @@ table {
 	width: 100%;
 }
 
-/* HEADER ///////////////////////////////////////////////////////////////////*/
-
-.site-title {
-	text-align: center;
-	color: #ffffff;
-	font-size: 4em;
-}
-
-.site-title a {
-	color: #ffffff;
-}
-
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -609,25 +601,6 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-a {
-	color: royalblue;
-}
-
-a:visited {
-	color: purple;
-}
-
-a:hover, a:focus, a:active {
-	color: midnightblue;
-}
-
-a:focus {
-	outline: thin dotted;
-}
-
-a:hover, a:active {
-	outline: 0;
-}
 
 /*--------------------------------------------------------------
 ## Menus
