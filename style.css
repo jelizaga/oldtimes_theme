@@ -71,8 +71,12 @@ textarea {
 	line-height: 1.5;
 }
 
-.site-title h1 {
+.site-title {
 	font-family: "Milkshake", serif;
+	color: #ffffff;
+}
+
+.site-title a {
 	color: #ffffff;
 }
 
