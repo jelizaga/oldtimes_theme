@@ -389,6 +389,10 @@ p {
 	margin-bottom: 1.5em;
 }
 
+a {
+	text-decoration: none;
+}
+
 dfn, cite, em, i {
 	font-style: italic;
 }
