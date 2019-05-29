@@ -1,29 +1,21 @@
 /*!
 Theme Name: Old Times
-Theme URI: http://underscores.me/
+Theme URI: https://oldtimesbakery.com
 Author: Joel Elizaga
-Author URI: http://underscores.me/
+Author URI: https://joelelizaga.com
 Description: Theme for the Old Times Bakery in Tacoma, WA.
 Version: 1.0.0
 License: GNU General Public License v2 or later
-License URI: LICENSE
 Text Domain: old-times
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Old Times is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+Designed and developed by Joel Elizaga (https://joelelizaga.com) for the Old 
+Times Bakery.
 */
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Typography
+
+/* CONTENTS /////////////////////////////////////////////////////////////////*/
+/* HTML
+/* BODY
 # Elements
 # Forms
 # Navigation
@@ -40,40 +32,19 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Media
 	## Captions
 	## Galleries
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
-/* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/////////////////////////////////////////////////////////////////////////////*/
 
-/* Document
-	 ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
+/* HTML /////////////////////////////////////////////////////////////////////*/
 html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 }
 
-/* Sections
-	 ========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-
+/* BODY /////////////////////////////////////////////////////////////////////*/
 body {
 	margin: 0;
+	background-image: url("/bg/brickwall.png");
 }
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
 
 h1 {
 	font-size: 2em;
@@ -387,7 +358,7 @@ template {
 }
 
 /*--------------------------------------------------------------
-# Typography
+# TYPOGRAPHY
 --------------------------------------------------------------*/
 body,
 button,
