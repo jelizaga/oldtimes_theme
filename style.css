@@ -360,6 +360,12 @@ template {
 /*--------------------------------------------------------------
 # TYPOGRAPHY
 --------------------------------------------------------------*/
+
+@font-face {
+	font-family: "Rosarivo";
+	src: url("/font/rosarivo-regular.otf");
+}
+
 body,
 button,
 input,
@@ -374,6 +380,8 @@ textarea {
 }
 
 h1, h2, h3, h4, h5, h6 {
+	font-family: "Rosarivo", serif;
+	font-weight: normal;
 	clear: both;
 }
 
