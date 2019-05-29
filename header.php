@@ -21,6 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+	
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'old-times' ); ?></a>
 
@@ -33,7 +34,8 @@
 			'menu_id'        => 'primary-menu',
 		) );
 		?>
-	</nav><!-- #site-navigation -->
+	</nav>
+	<!------------------------------------------------------------------------>
 
 	<!-- HEADER -------------------------------------------------------------->
 	<header id="masthead" class="site-header">
@@ -59,7 +61,7 @@
 				?>
 				<p class="site-description"><?php echo $old_times_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
-			
+
 		</div><!-- .site-branding -->
 
 	</header><!-- #masthead -->
