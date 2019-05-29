@@ -40,7 +40,7 @@
 	<!-- HEADER -------------------------------------------------------------->
 	<header id="masthead" class="site-header">
 
-		<video class="site-header-cinemagraph" src="/vid/origami-2.mp4" playsinline="true" loop="true" autoplay="true" muted="true"></video>
+		<video class="site-header-cinemagraph" src="vid/origami-2.mp4" playsinline="true" loop="true" autoplay="true" muted="true"></video>
 
 		<div class="site-branding">
 			<?php
