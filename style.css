@@ -205,12 +205,16 @@ big {
 	position: fixed;
 }
 
-.nav-menu {
-
+.main-navigation .nav-menu {
 	width: 90vw;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.main-navigation .nav-menu a {
+	color: black;
+}
+
 
 /*///////////////////////////////////////////////////////////////////////////*/
 
