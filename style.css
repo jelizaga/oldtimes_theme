@@ -211,7 +211,13 @@ big {
 }
 
 .main-navigation .nav-menu a {
-	color: black;
+	font-family: "DejaVu", sans-serif;
+	color: navy;
+	transition: color 0.2s ease;
+}
+
+.main-navigation .nav-menu a:hover {
+	color: tan;
 }
 
 
